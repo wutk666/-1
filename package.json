@@ -1,0 +1,19 @@
+{
+  "name": "christmas-tree-api-proxy",
+  "version": "1.0.0",
+  "description": "API proxy server for Christmas Tree 3D experience using OpenRouter",
+  "type": "module",
+  "main": "api-proxy.js",
+  "scripts": {
+    "start": "node api-proxy.js",
+    "test": "node sdkk.js"
+  },
+  "keywords": ["christmas", "api", "proxy", "openrouter"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@openrouter/sdk": "latest"
+  }
+}
